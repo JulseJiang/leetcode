@@ -145,7 +145,6 @@ class Solution:
                             v[new_i][new_j] = True
                 ans+=1
         return ans
-
     def DFS(self,m,n):
         '''
         深度优先
